@@ -79,8 +79,9 @@
   font-family: "DM Serif Display", serif;
 }
 .top_btn {
-  width: 30%;
+  width: auto;
 }
+
 .get_started_btn {
   align-self: flex-start;
   text-transform: uppercase;
@@ -98,9 +99,10 @@
 }
 .get_started_btn:hover {
   color: var(--primary);
-  background: var(--white);
+  background: rgba(255, 255, 255, 0.7);
   border: 2px solid var(--primary);
 }
+
 .get_started_btn::after {
   content: "";
   margin-left: 0.5rem;
