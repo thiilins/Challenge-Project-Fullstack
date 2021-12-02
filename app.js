@@ -16,7 +16,6 @@ const maintenance = false;
 const methodOverride = require("method-override");
 const indexRoutes = require("./src/routes");
 const path = require("path");
-const session = require("express-session");
 const logger = require("morgan");
 /**
  *

@@ -192,7 +192,7 @@
               Facilis laborum nulla deserunt. Pariatur, cupiditate!
             </p>
           </details>
-          <div></div>
+         </div>
           <button class="faq_load_more_btn">Load More</button>
         </div>
       </section>
@@ -268,7 +268,7 @@
               </span>
             </div>
             <div class="contact_top_col2">
-              <form class="contact-form" action="/" method="POST">
+              <form id="contact" class="contact-form" action="/" method="POST">
                 <label for="name">
                   <p>Name</p>
                   <input
@@ -307,13 +307,13 @@
             <nav class="footer_menu">
               <ul class="footer_menu_content">
                 <li class="footer_menu_item">
-                  <a class="footer_menu_link" href="#">About</a>
+                  <a class="footer_menu_link" href="#about">About</a>
                 </li>
                 <li class="footer_menu_item">
-                  <a class="footer_menu_link" href="#">How to</a>
+                  <a class="footer_menu_link" href="#how-to">How to</a>
                 </li>
                 <li class="footer_menu_item">
-                  <a class="footer_menu_link" href="#">FAQS</a>
+                  <a class="footer_menu_link" href="#faq">FAQS</a>
                 </li>
               </ul>
             </nav>
@@ -341,7 +341,7 @@
     <script>
       const swiper = new Swiper(".my_testimonials", {
         direction: "horizontal",
-        loop: false,
+        loop: true,
         slidesPerView: "auto",
         spaceBetween: 15,
 
