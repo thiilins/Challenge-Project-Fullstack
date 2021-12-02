@@ -1,6 +1,6 @@
 const IndexController = {
   index: (req, res) => {
-    res.send("Hello World");
+    res.render("home");
   },
 };
 module.exports = IndexController;

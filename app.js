@@ -40,7 +40,7 @@ app.use(logger("dev"));
  ********************************************************/
 app.use(
   session({
-    secret: "Sq0JI88e4$|GI_LMV1qm",
+    secret: "RTYUJKLPPÇGBNM<IKÇA1qm",
     resave: true,
     saveUninitialized: true,
     cookies: { secure: "auto", maxAge: 2600000 },
@@ -58,16 +58,14 @@ app.use(methodOverride("_method")); //*?_method=PUT
  *Instanciando Rotas
  *
  */
-
-app.use("/", indexRoutes);
-
+app.use(indexRoutes);
 // Manutenção
 app.use((req, res, next) => {
   !maintenance ? next() : res.status(503).render("pages/maintenance");
 });
 // erro 404
 app.use((req, res, next) => {
-  res.status(404).render("pages/404");
+  res.status(404).send("404 - Page not Found!");
   next();
 });
 //Definindo escuta de porta para iniciar o servidor
