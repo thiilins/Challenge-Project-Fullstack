@@ -3,5 +3,5 @@ const router = express.Router();
 const IndexController = require("../controller/IndexController");
 
 router.get("/", IndexController.index);
-
+E
 module.exports = router;

@@ -33,19 +33,7 @@ app.set("views", path.resolve("src", "views"));
  */
 // Habilitando o Log via console
 app.use(logger("dev"));
-// Express Session  (Habilitando Sessão)
-/*********************************************************
- * ANTES DE INICIALIZAR O SERVIDOR ALTERE
- * O VALOR DA PROPRIEDADE SECRET PARA UM DE SUA ESCOLHA
- ********************************************************/
-app.use(
-  session({
-    secret: "RTYUJKLPPÇGBNM<IKÇA1qm",
-    resave: true,
-    saveUninitialized: true,
-    cookies: { secure: "auto", maxAge: 2600000 },
-  })
-);
+
 // Definindo a Pasta Public
 app.use(express.static(path.resolve("src", "public")));
 // Habilitando JSON  e configurando recebimento de formulário
