@@ -8,6 +8,9 @@
   position: relative;
   padding: 2rem 8rem 10rem 8rem;
 }
+.hide {
+  display: none;
+}
 .top_header {
   display: flex;
   min-width: 100%;
@@ -489,4 +492,55 @@ footer {
   background-size: contain;
   width: 30px;
   height: 30px;
+}
+/* Error Alert*/
+.errors_container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(238, 77, 71, 0.9);
+  max-width: 500px;
+  padding: 3rem 3rem;
+  z-index: 100;
+  border-radius: 1rem;
+}
+.errors_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  gap: 0.8rem;
+}
+.close_errors::after {
+  content: "close";
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: black;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.close_errors:hover::after {
+  content: "close";
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.errors_title {
+  font-weight: 500;
+}
+.errors_list {
+  padding-left: 0.2rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.error_item::before {
+  content: "> ";
+  font-weight: bold;
+}
+.error_item {
 }

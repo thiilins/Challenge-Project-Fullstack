@@ -1,5 +1,10 @@
 const { check, validationResult, body } = require("express-validator");
-const validateRegister = [];
+const validateContactForm = [
+  check("email").isEmail().withMessage("Enter a valid email!"),
+  check("name").isLength({ min: 3 }).withMessage("Name cannot be empty"),
+  check("message").notEmpty().withMessage("Message cannot be empty"),
+];
+
 /*
 check("nome-do-campo").
 .notEmpty() => Verifica se não esta vazio
@@ -11,5 +16,7 @@ check("nome-do-campo").
 
 
 #### INSERIR NA ROTA
-validateRegister
+validateContact
  */
+
+module.exports = validateContactForm;
