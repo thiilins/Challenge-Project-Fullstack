@@ -2,13 +2,7 @@ const { check, validationResult, body } = require("express-validator");
 const { contact } = require("../models");
 const IndexController = {
   index(req, res) {
-    res.render("home", {
-      errors: [
-        {
-          msg: "Erro 1",
-        },
-      ],
-    });
+    res.render("home");
   },
   async contact(req, res) {
     try {
