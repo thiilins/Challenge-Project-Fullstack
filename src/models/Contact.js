@@ -10,15 +10,15 @@ module.exports = (connection, DataTypes) => {
       name: {
         type: DataTypes.STRING(200),
       },
-      contact: {
+      email: {
         type: DataTypes.STRING(500),
       },
-      name: {
+      message: {
         type: DataTypes.TEXT("long"),
       },
     },
     {
-      tableName: "contacts",
+      tableName: "contact",
       timestamps: true,
     }
   );
