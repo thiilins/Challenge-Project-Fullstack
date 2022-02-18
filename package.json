@@ -1,11 +1,11 @@
 {
-  "name": "boilerplate-server-ejs-express-nodejs",
+  "name": "challenge-project-fullstack",
   "version": "1.0.0",
-  "description": "Template de Servidor NodeJS utilizando Express, Sequelize, EJS",
+  "description": "Challenge do Curso de Desenvolvimento Web Fullstack NodeJS da Digital House",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thiilins/boilerplate-server-ejs-express-nodeJS"
+    "url": "https://github.com/thiilins/Challenge-Project-Fullstack"
   },
   "scripts": {
     "start": "node app.js",

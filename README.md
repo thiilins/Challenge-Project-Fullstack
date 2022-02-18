@@ -1,36 +1,92 @@
-# Challenge Project Fullstack!
-![Captura de tela 2021-11-08 214941](https://user-images.githubusercontent.com/30291266/140842441-76f0da80-955f-4a50-9c02-775098bdd874.png)
+<div align="center" id="top"> 
+  <img src="./.github/cover.png" alt="Challenge Project Fullstack" />
 
-Este desafio tem como objetivo treinar sua habilidades em construir uma aplicação fullstack e  reflete a realidade de desafios tecnicos para a posição de desenvolvedor fullstack.
+&#xa0;
 
-Com esse desafio, você poderá treinar sua lógica, organização de projeto, boas práticas e os conceitos adiquridos no durante sua  jornada no curso de Web Fullstack da Digital House.
+<a href="https://tgpro.site/challenge_fullstack">Demo</a>
 
-# Entrega
+</div>
 
-Todo o código deverá estar em um repositorio publico, se preferir, pode fazer fork desse projeto com sua conta do Github.
+<h1 align="center">Challenge Project Fullstack</h1>
 
-Pedimos que todo o processo de desenvolvimento seja registrado com Commits em seu repositório.
+<p align="center">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/thiilins/challenge-project-fullstack?color=56BEB8">
 
-## Ideia
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/thiilins/challenge-project-fullstack?color=56BEB8">
 
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/thiilins/challenge-project-fullstack?color=56BEB8">
 
-Você irá desenvolver uma Landpage de uma transportadora com a ideia de divulgar os serviços e conseguir possiveis clientes a partir de um formulário que deverá salvar as informações em uma base de dados para futuras consultas.
+  <img alt="Licença" src="https://img.shields.io/github/license/thiilins/challenge-project-fullstack?color=56BEB8">
 
-Para isso você deverá seguir o protótipo disponibilizado no figma contendo cores, fontes espaçamentos e imagens.
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/challenge-project-fullstack?color=56BEB8" /> -->
 
-[Layout no Figma - Link](https://www.figma.com/file/LXL0ateBdMj1PLjkGRzQPF/traffico-landing-page-for-figma?node-id=0:1)
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thiilins/challenge-project-fullstack?color=56BEB8" /> -->
 
->  Não é necessario se preocupar com a responsividade do projeto,
-> ficando como optativo já que o layout não aborda esse requisito.
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thiilins/challenge-project-fullstack?color=56BEB8" /> -->
+</p>
 
-## Requisitos
+<!-- Status -->
 
-O projeto deverá ser desenvolvido com as seguintes tecnologias: 
+<!-- <h4 align="center">
+	🚧  Challenge Project Fullstack 🚀 Em construção...  🚧
+</h4>
 
- - Node.JS
- - EJS (HTML | CSS | JS )
- - Sequelize
- - Mysql
- - MVC
+<hr> -->
+<p align="center">
+ <img src="./.github/preview.png" alt="Challenge Project Fullstack" /><br/>
+  <a href="https://www.figma.com/file/LXL0ateBdMj1PLjkGRzQPF/traffico-landing-page-for-figma?node-id=0:1">Layout</a> &#xa0; |<a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/thiilins" target="_blank">Autor</a>
+</p>
 
-Com isso em mente, lembre-se de criar uma tabela de acordo com os itens aprensentados no formulário do figma.
+<br>
+
+## :dart: Sobre
+
+Este desafio tem como objetivo treinar sua habilidades em construir uma aplicação fullstack e reflete a realidade de desafios tecnicos para a posição de desenvolvedor fullstack.
+Repositório com instruções do desafio : [DigitalHouseBrasil/Challenge-Project-Fullstack](https://github.com/DigitalHouseBrasil/Challenge-Project-Fullstack)
+
+## :rocket: Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- Node.JS
+- EJS (HTML | CSS | JS )
+- Sequelize
+- Mysql
+- MVC
+
+## :white_check_mark: Pré requisitos
+
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+## :checkered_flag: Começando
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/thiilins/challenge-project-fullstack
+# Antes de iniciar importe o banco de dados 'trafego_log.sql' que  está na pasta /src/database
+# Entre na pasta
+$ cd challenge-project-fullstack
+
+# Instale as dependências
+$ yarn
+
+# Para iniciar o projeto
+$ yarn start
+
+# O app vai inicializar em <http://localhost:3000>
+```
+
+## :memo: Licença
+
+Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+Feito com :heart: por <a href="https://github.com/thiilins" target="_blank">Thiago Lins</a>
+
+&#xa0;
+
+<a href="#top">Voltar para o topo</a>
