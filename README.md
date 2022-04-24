@@ -3,7 +3,6 @@
 
 &#xa0;
 
-<a href="https://tgpro.site/challenge_fullstack">Demo</a>
 
 </div>
 
