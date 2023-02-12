@@ -8,19 +8,19 @@
 <h1 align="center">Challenge Project Fullstack</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/thiilins/challenge-project-fullstack?color=FF5858">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/thiilins/challenge-project-fullstack?color=FF5858&style=for-the-badge">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/thiilins/challenge-project-fullstack?color=FF5858">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/thiilins/challenge-project-fullstack?color=FF5858&style=for-the-badge">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/thiilins/challenge-project-fullstack?color=FF5858">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/thiilins/challenge-project-fullstack?color=FF5858&style=for-the-badge">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/thiilins/challenge-project-fullstack?color=FF5858">
+  <img alt="Licença" src="https://img.shields.io/github/license/thiilins/challenge-project-fullstack?color=FF5858&style=for-the-badge">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/challenge-project-fullstack?color=FF5858" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/challenge-project-fullstack?color=FF5858&style=for-the-badge" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thiilins/challenge-project-fullstack?color=FF5858" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thiilins/challenge-project-fullstack?color=FF5858&style=for-the-badge" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thiilins/challenge-project-fullstack?color=FF5858" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thiilins/challenge-project-fullstack?color=FF5858&style=for-the-badge" /> -->
 </p>
 
 <!-- Status -->
