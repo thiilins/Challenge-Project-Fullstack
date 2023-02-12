@@ -31,7 +31,7 @@
 
 <hr> -->
 <p align="center">
- <img src="./.github/preview.png" alt="Challenge Project Fullstack" /><br/>
+ <img src="./.github/assets/preview.png" alt="Challenge Project Fullstack" /><br/>
   <a href="https://www.figma.com/file/LXL0ateBdMj1PLjkGRzQPF/traffico-landing-page-for-figma?node-id=0:1">Layout</a> &#xa0; |<a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
